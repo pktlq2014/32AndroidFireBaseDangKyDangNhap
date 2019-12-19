@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:text="Đăng Ký Thành Viên"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:gravity="center"
+        android:background="#F44336"
+        android:textSize="30dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:hint="Password"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="#009688"
+        android:inputType="textPassword"
+        android:textSize="30dp"
+        />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:text="đăng ký"
+        android:id="@+id/butTon1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:text="Đăng Nhập"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:gravity="center"
+        android:background="#F44336"
+        android:textSize="30dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:hint="Password"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="#009688"
+        android:inputType="textPassword"
+        android:textSize="30dp"
+        />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:text="đăng nhập"
+        android:id="@+id/butTon2"
+        />
+</LinearLayout>
